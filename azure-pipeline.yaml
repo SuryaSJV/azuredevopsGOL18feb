@@ -1,0 +1,10 @@
+---
+pool: 
+  name: 'azure pipeline'
+  vmImage: ubuntu-latest
+
+trigger:
+  - master
+
+steps:
+  - script: echo hello    
