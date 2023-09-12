@@ -7,7 +7,7 @@ trigger:
   - master
 
 extends:
-  template: ./templates/maven-build.yaml
+  template: ./template/maven-build.yaml
   parameters:
     branch: 'master'
     agentvmImage: 'ubuntu-18.04'
